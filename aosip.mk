@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/klte/full_klte.mk)
 
@@ -24,4 +24,4 @@ $(call inherit-product, device/samsung/klte/full_klte.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_DEVICE := klte
-PRODUCT_NAME := aosp_klte
+PRODUCT_NAME := aosip_klte
