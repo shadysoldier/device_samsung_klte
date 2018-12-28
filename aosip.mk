@@ -16,7 +16,7 @@
 #
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/common.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/klte/full_klte.mk)
 
