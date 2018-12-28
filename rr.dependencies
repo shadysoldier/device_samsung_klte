@@ -1,13 +1,13 @@
 [
   {
     "remote":      "github",
-    "repository":  "fessmm/android_device_samsung_klte-common",
+    "repository":  "fessmm/device_samsung_klte-common",
     "target_path": "device/samsung/klte-common",
     "branch":      "pie"
   },
   {
     "remote":      "github",
-    "repository":  "fessmm/android_device_samsung_msm8974-common",
+    "repository":  "fessmm/device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
     "branch":      "pie"
   },
